@@ -1,0 +1,38 @@
+.footer {
+    background-color: var(--light-bg);
+    border-top: 1px solid var(--border-color);
+}
+
+.footer-title {
+    font-family: var(--font-secondary);
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.footer-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    display: block;
+    padding: 0.25rem 0;
+    transition: color var(--transition-normal);
+}
+
+.footer-links a:hover {
+    color: var(--primary-color);
+}
+
+.contact-info li {
+    color: var(--text-color);
+    margin-bottom: 0.5rem;
+}
+
+.social-links a {
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    transition: color var(--transition-normal);
+}
+
+.social-links a:hover {
+    color: var(--secondary-color);
+}

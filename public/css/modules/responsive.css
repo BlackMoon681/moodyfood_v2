@@ -1,0 +1,15 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 60vh;
+    }
+    
+    .restaurant-card img {
+        height: 150px;
+    }
+    
+    .table-selector {
+        width: 60px;
+        height: 60px;
+    }
+}

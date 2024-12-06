@@ -1,0 +1,33 @@
+.cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--light-bg);
+    padding: 1rem 0;
+    box-shadow: var(--shadow-lg);
+    z-index: 1050;
+    transform: translateY(100%);
+    transition: transform var(--transition-normal);
+}
+
+.cookie-consent.show {
+    transform: translateY(0);
+}
+
+.cookie-consent p {
+    font-size: 0.875rem;
+    color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+    .cookie-consent .d-flex {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .cookie-consent .ms-3 {
+        margin-left: 0 !important;
+        margin-top: 1rem;
+    }
+}

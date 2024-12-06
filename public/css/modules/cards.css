@@ -1,0 +1,32 @@
+/* Restaurant Cards */
+.restaurant-card {
+    transition: transform 0.3s ease;
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.restaurant-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.restaurant-card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Testimonial Cards */
+.testimonial-card {
+    background-color: var(--light-bg);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 20px 0;
+}
+
+.testimonial-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
